@@ -1,0 +1,33 @@
+.contenedor {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 24px 28px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.contenedor h1 {
+  font-size: 1.4rem;
+  margin-top: 0;
+}
+
+.contenedor input[type='text'] {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: 1px solid #c4cad4;
+  border-radius: 6px;
+}
+
+.contenedor input[type='submit'] {
+  padding: 7px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contenedor input[type='submit']:hover {
+  background: #1d4ed8;
+}
